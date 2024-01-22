@@ -61,6 +61,7 @@ public static int[] getListSimpleNumber(int a){
         System.out.println("Если хотите вывести свой список чисел нажмите любую другую клавишу");
         Scanner scanner=new Scanner(System.in);
         String s=scanner.nextLine();
+        scanner.close();
         if (s.equals("0")){
             System.out.println("список чисел от 1 до 1000 ");
             int []arr=getListSimpleNumber(1000);

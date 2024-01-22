@@ -75,7 +75,9 @@ public class Exercise3 {
             else {
                 System.out.println("Неправильно выбрали операцию, пожалуйста повторите");
             }
-
+         scanner.close();
+         scanner1.close();
+         scanner2.close();
 
         }
 

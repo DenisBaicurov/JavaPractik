@@ -14,10 +14,12 @@ public class Exercise4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите первое число в диапазоне от 1 до 9");
         int a = scanner.nextInt();
+      
         if (a < 1 || a > 9) {
             System.err.println("Число вышло из диапозона");
             getNumberone();
         }
+        scanner.close();
         return a;
     }
 
@@ -29,6 +31,7 @@ public class Exercise4 {
             System.err.println("Число вышло из диапозона");
             getNumbertwo();
         }
+        scanner.close();
         return a;
     }
 
@@ -40,6 +43,7 @@ public class Exercise4 {
             System.err.println("Число вышло из диапозона");
             getNumberfree();
         }
+        scanner.close();
         return a;
 
     }
