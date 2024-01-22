@@ -1,0 +1,13 @@
+git init - инициализировали репозиторий
+git add .\Exercise1.java
+git add .\Exercise2.java
+git add .\Exercise3.java
+git add .\Exercise4.java - добавили файлы
+git commit -m "Создали удалённый репозиторий" - создали коммит
+git remote add origin https://github.com/DenisBaicurov/JavaPractik.git - связали с удалённым репозиторием
+git push -u origin master отправили файлы на удалённый репозиторий
+git add .\Exercise2.java(Exercise3.java,Exercise4.java) - вносим изменения в файлы
+git add .\Readme.md - создали файл-задание
+git commit -m "Внесли изменения" - создали новый коммит 
+git push -внесли изменения в удалённый репозиторий
+git 
